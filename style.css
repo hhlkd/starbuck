@@ -8,6 +8,9 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
+body {
+    transition:  0.6s;
+}
 .nav-link{
     font-size: 1rem;
     font-weight: 500;
@@ -198,3 +201,102 @@
     background: #4df2c3;
     border-radius: 10px;
 } 
+
+
+/* about */
+.imag{
+    width: 100%;
+    height: 200px;
+}
+
+.imag img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.title{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(252, 255, 254);
+    padding: 8px 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0,0.5);
+    color: #35b986;
+    cursor: pointer;  
+    margin: -40px 150px;
+}
+.title p{
+    font-size:14px;
+    padding: 8px 9px;
+    font-weight: 500;
+    color: rgb(33, 165, 108);
+}
+.title:hover{
+    color: rgb(33, 165, 108);
+    transition: 0.5s;
+    transform: translateY(-20px);
+}
+.more{
+    padding: 10px 20px;
+    background: linear-gradient(to left,
+     rgba(61, 243, 213, 0.655)50%,
+     rgba(12, 154, 97, 0.655) 100%);
+     border-radius: 5px;
+     color: #fff;
+     font-size: 1rem;
+     font-weight: 500;
+     text-decoration: none;
+     cursor: pointer;
+     transition: all 0.6s ease-in-out;
+}
+.more:hover{
+    color: rgb(33, 165, 108);
+    transition: all 0.6s ease-in-out;
+    transform: translateY(-20px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0,0.5);
+}
+/* service */
+
+.service-box{
+    border-radius: 16px;
+    height: 300px;
+    width: 410px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0,0.5);
+    padding: 20px;
+    overflow: hidden;
+    margin: 20px 10px;
+}
+
+.content-top{
+    width: 100%;
+    height: 100px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0,0.5);
+    margin-bottom: 10px;
+}
+.bi-truck{
+    width: 100px;
+    height: 100px;
+    color: #35b986;
+    cursor: pointer;
+    margin-left: 160px ;
+    padding: 20px;
+    font-size: 40px;
+}
+.content-bottom{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bi-geo-alt{
+    color: #35b986;
+    cursor: pointer;
+    padding: 10px 14px;
+    background-color: #ffffff;
+    border: #4df2c3 2px solid;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0,0.5);
+}
